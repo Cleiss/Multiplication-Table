@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(fundotab.jpg);
+}
+
+.campo {
+    background-color: antiquewhite;
+    margin: 200px;
+    margin-top: 100px;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.titulo {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.prin-camp {
+    box-shadow: 1px 1px 3px;
+    border-style: none;
+    align-items: center;
+}
+
+.prin-btn {
+    border-color: white;
+    box-shadow: 1px 1px 1px;
+    border-radius: 20px;
+    width: 65px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.prin-btn:hover {
+    background-color: #3dc7e049;
+}
+
+.res {
+    box-shadow: 1px 1px 3px;
+    border-style: none;
+    width: 150px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .campo {
+        background-color: antiquewhite;
+        margin: 20px;
+        margin-top: 50px;
+        padding: 30px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+}
